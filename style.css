@@ -1,0 +1,23 @@
+/* use google font for my full site  */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* special offer card design here  */
+.offer-card{
+    border-radius: 30px;
+    background-color: #8D3DAF;
+    color: #FCF951FF;
+}
+
+/* special offer card button customization  */
+.custom-btn-color{
+    background-color: #FCF951FF;
+    color: #8D3DAF;
+}
+
+.custom-btn-color:hover{
+    background-color: rgb(255, 0, 76);
+    color: rgb(245, 245, 245);
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}

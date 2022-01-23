@@ -13,6 +13,12 @@
   <script src="https://kit.fontawesome.com/d8a783a78e.js" crossorigin="anonymous"></script>
   <!-- add favicon  -->
   <link rel="shortcut icon" href="./logo/favlogo.png" type="image/x-icon">
+  <!-- custom css link  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- added google font link here -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  </style>
 </head>
 
 <body>
@@ -21,8 +27,8 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
       <div class="container">
         <div class="justify-content-start">
-          <a class="navbar-brand fw-bold fs-3" href="#">Happy Forever <img class="rounded-circle" src="./logo/logo-main.jpg"
-              height="35" width="50" alt=""></a>
+          <a class="navbar-brand fw-bold fs-3" href="#">Happy Forever <img class="rounded-circle"
+              src="./logo/logo-main.jpg" height="35" width="50" alt=""></a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,7 +72,8 @@
               <h2 class="fw-bold">Couple's First Choice</h2>
               <p class="fs-5">Our main goal is the satisfaction of our customers. So feel free to book your wedding
                 place here.</p>
-              <button class="btn btn-primary btn-lg fw-bold">BOOK NOW</button>
+              <a href="http://www.bdweddingplanners.com/" target="_blank"><button
+                  class="btn btn-light btn-lg fw-bold text-primary">Book Now</button></a>
             </div>
           </div>
           <div class="carousel-item">
@@ -75,7 +82,8 @@
               <h2 class="fw-bold">Best Place For Yellow Touch</h2>
               <p class="fs-5">Our yellow touch placement is one of the best designs all over Bangladesh. You can easily
                 arrange your yellow touch occasion here.</p>
-              <button class="btn btn-primary btn-lg fw-bold">BOOK NOW</button>
+              <a href="http://www.bdweddingplanners.com/" target="_blank"><button
+                  class="btn btn-light btn-lg fw-bold text-primary">Book Now</button></a>
             </div>
           </div>
           <div class="carousel-item">
@@ -84,7 +92,8 @@
               <h2 class="fw-bold">Best Cuisine</h2>
               <p class="fs-5">We provide the best wedding cuisines all over Dhaka. You can choose your best wedding food
                 plan here. For example Chinese items, Indian items, Bangla items and so on.</p>
-              <button class="btn btn-primary btn-lg fw-bold">BOOK NOW</button>
+              <a href="http://www.bdweddingplanners.com/" target="_blank"><button
+                  class="btn btn-light btn-lg fw-bold text-primary">Book Now</button></a>
             </div>
           </div>
           <div class="carousel-item">
@@ -93,7 +102,8 @@
               <h2 class="fw-bold">Best Dinning Hall</h2>
               <p class="fs-5">We focused on making a proper dining hall. The place is much big enough for eating, gossip
                 and enjoyment.</p>
-              <button class="btn btn-primary btn-lg fw-bold">BOOK NOW</button>
+              <a href="http://www.bdweddingplanners.com/" target="_blank"><button
+                  class="btn btn-light btn-lg fw-bold text-primary">Book Now</button></a>
             </div>
           </div>
         </div>
@@ -111,7 +121,83 @@
     </section>
   </header>
   <main>
-
+    <!-- package part  -->
+    <section class="container my-5">
+      <h1 class="fw-bold text-center my-5">Our Packages</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
+        <div class="col">
+          <div class="card h-100 p-3 border-0">
+            <h2 class="fw-bold">&#2547; 12,000</h2>
+            <div class="card-body">
+              <h3 class="card-title fw-bold">Yellow Touch</h3>
+              <p class="card-text py-3 text-muted">
+                <i class="fas fa-check-circle"></i> Get free decoration <br>
+                <i class="fas fa-check-circle"></i> Flower facilities <br>
+                <i class="fas fa-check-circle"></i> Unlimited music facilites <br>
+                <i class="fas fa-check-circle"></i> Dancing zone <br>
+                <i class="fas fa-check-circle"></i> 100+ Seats for the guests <br>
+                <i class="fas fa-check-circle"></i> Dinner for 100+ peoples
+              </p>
+            </div>
+            <div class="d-grid" >
+              <button class="btn btn-outline-primary rounded-pill fw-bold fs-5">Choose plan</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-3 border-0">
+            <h2 class="fw-bold">&#2547; 18,000</h2>
+            <div class="card-body">
+              <h3 class="card-title fw-bold">Wedding Party</h3>
+              <p class="card-text py-3 text-muted">
+                <i class="fas fa-check-circle"></i> Big placement <br>
+                <i class="fas fa-check-circle"></i> 200+ guests seats <br>
+                <i class="fas fa-check-circle"></i> Lunch facilites <br>
+                <i class="fas fa-check-circle"></i> Restroom for the guests <br>
+                <i class="fas fa-check-circle"></i> Special cuisine facilites <br>
+                <i class="fas fa-check-circle"></i> Kids zone 
+              </p>            
+            </div>
+            <div class="d-grid" >
+              <button class="btn btn-outline-primary rounded-pill fw-bold fs-5">Choose plan</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-3 offer-card">
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">54% off <i class="fas fa-fire"></i></span>
+            <h2 class="fw-bold">&#2547; 15,999</h2>
+            <div class="card-body">
+              <h2 class="card-title fw-bold">Full Wedding</h2>
+              <p class="card-text py-3">
+                <i class="fas fa-check-circle"></i> Yellow touch zone <br>
+                <i class="fas fa-check-circle"></i> Wedding party zone <br>
+                <i class="fas fa-check-circle"></i> 2 days full plan <br>
+                <i class="fas fa-check-circle"></i> Double cuisine facilites <br>
+                <i class="fas fa-check-circle"></i> 300+ guest zone <br>
+                <i class="fas fa-check-circle"></i> Free kids zone <br> 
+                <i class="fas fa-check-circle"></i> Dessert facilities <br> 
+              </p> 
+            </div>
+            <div class="d-grid" >
+              <button class="btn custom-btn-color rounded-pill fw-bold fs-5">Choose plan</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-3 border-0">
+            <h2 class="fw-bold">&#2547; 25,000</h2>
+            <div class="card-body">
+              <h3 class="card-title fw-bold">Special Event</h3>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="d-grid" >
+              <button class="btn btn-outline-primary rounded-pill fw-bold fs-5">Choose plan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
 
