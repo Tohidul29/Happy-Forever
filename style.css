@@ -28,5 +28,10 @@ body{
 
 /* toast offer color changing here */
 .toast-custom-color{
-    color: #E21717;
+    color: rgb(60, 255, 0);
+}
+
+.custom-toast-design{
+    background-color: #8D3DAF;
+    color: #FCF951FF;
 }
