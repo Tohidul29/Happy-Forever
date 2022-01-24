@@ -11,6 +11,10 @@ body{
 }
 
 /* special offer card button customization  */
+.special-card-resize{
+    transform: scale(1.01);
+}
+
 .custom-btn-color{
     background-color: #FCF951FF;
     color: #8D3DAF;
@@ -20,4 +24,9 @@ body{
     background-color: rgb(255, 0, 76);
     color: rgb(245, 245, 245);
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+/* toast offer color changing here */
+.toast-custom-color{
+    color: #E21717;
 }

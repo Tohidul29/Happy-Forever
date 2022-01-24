@@ -28,7 +28,7 @@
       <div class="container">
         <div class="justify-content-start">
           <a class="navbar-brand fw-bold fs-3" href="#">Happy Forever <img class="rounded-circle"
-              src="./logo/logo-main.jpg" height="35" width="50" alt=""></a>
+              src="./logo/logo-main.jpg" height="40" width="40" alt="logo of happy forever"></a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
               <a class="nav-link" href="#packages">PACKAGES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT US</a>
+              <a class="nav-link" href="#why we?">WHY WE?</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">SUBSCRIBE</a>
@@ -54,7 +54,7 @@
     </nav>
     <!-- img slider part here  -->
     <section>
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
@@ -67,7 +67,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/img-1.jpg" class="d-block w-100" alt="...">
+            <img src="./img/img-1.jpg" class="d-block w-100" alt="first slide picture">
             <div class="carousel-caption d-none d-md-block py-5">
               <h2 class="fw-bold">Couple's First Choice</h2>
               <p class="fs-5">Our main goal is the satisfaction of our customers. So feel free to book your wedding
@@ -77,7 +77,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./img/img-2.jpg" class="d-block w-100" alt="...">
+            <img src="./img/img-2.jpg" class="d-block w-100" alt="second slide picture">
             <div class="carousel-caption d-none d-md-block py-5">
               <h2 class="fw-bold">Best Place For Yellow Touch</h2>
               <p class="fs-5">Our yellow touch placement is one of the best designs all over Bangladesh. You can easily
@@ -87,7 +87,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./img/img-3.jpg" class="d-block w-100" alt="...">
+            <img src="./img/img-3.jpg" class="d-block w-100" alt="third slide picture">
             <div class="carousel-caption d-none d-md-block py-5">
               <h2 class="fw-bold">Best Cuisine</h2>
               <p class="fs-5">We provide the best wedding cuisines all over Dhaka. You can choose your best wedding food
@@ -97,7 +97,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./img/img-4.jpg" class="d-block w-100" alt="...">
+            <img src="./img/img-4.jpg" class="d-block w-100" alt="fourth slide picture">
             <div class="carousel-caption d-none d-md-block py-5">
               <h2 class="fw-bold">Best Dinning Hall</h2>
               <p class="fs-5">We focused on making a proper dining hall. The place is much big enough for eating, gossip
@@ -121,13 +121,28 @@
     </section>
   </header>
   <main>
+    <!-- using toast on my website -->
+    <section class="d-flex justify-content-end my-4">
+      <div class="toast show align-items-center text-dark bg-warning border-0" role="alert" aria-live="assertive"
+        aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body">
+            Get upto <span class="fw-bold fs-5 toast-custom-color">50% off <i class="fas fa-fire-alt"></i></span> on
+            Full Wedding plan. Hurry Up!!!
+          </div>
+          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+            aria-label="Close"></button>
+        </div>
+      </div>
+    </section>
+
     <!-- package part  -->
     <section class="container my-5" id="packages">
       <h1 class="fw-bold text-center my-5">Our Packages</h1>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
         <div class="col">
           <div class="card h-100 p-3 border-0">
-            <h2 class="fw-bold">&#2547; 12,000</h2>
+            <h2 class="fw-bold">&#2547; 22,000</h2>
             <div class="card-body">
               <h3 class="card-title fw-bold">Yellow Touch</h3>
               <p class="card-text py-3 text-muted">
@@ -139,14 +154,14 @@
                 <i class="fas fa-check-circle"></i> Dinner for 100+ peoples
               </p>
             </div>
-            <div class="d-grid" >
+            <div class="d-grid">
               <button class="btn btn-outline-primary rounded-pill fw-bold fs-5">Choose plan</button>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 p-3 border-0">
-            <h2 class="fw-bold">&#2547; 18,000</h2>
+            <h2 class="fw-bold">&#2547; 38,000</h2>
             <div class="card-body">
               <h3 class="card-title fw-bold">Wedding Party</h3>
               <p class="card-text py-3 text-muted">
@@ -155,38 +170,38 @@
                 <i class="fas fa-check-circle"></i> Lunch facilites <br>
                 <i class="fas fa-check-circle"></i> Restroom for the guests <br>
                 <i class="fas fa-check-circle"></i> Special cuisine facilites <br>
-                <i class="fas fa-check-circle"></i> Kids zone 
-              </p>            
+                <i class="fas fa-check-circle"></i> Kids zone
+              </p>
             </div>
-            <div class="d-grid" >
+            <div class="d-grid">
               <button class="btn btn-outline-primary rounded-pill fw-bold fs-5">Choose plan</button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100 p-3 offer-card">
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">Hot <i class="fas fa-fire-alt"></i></span>
-            <h2 class="fw-bold">&#2547; 15,999</h2>
+          <div class="card h-100 p-3 offer-card special-card-resize">
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">Hot</span>
+            <h2 class="fw-bold">&#2547; 29,999</h2>
             <div class="card-body">
               <h2 class="card-title fw-bold">Full Wedding</h2>
               <p class="card-text py-3">
                 <i class="fas fa-check-circle"></i> Yellow touch zone <br>
                 <i class="fas fa-check-circle"></i> Wedding party zone <br>
                 <i class="fas fa-check-circle"></i> 2 days full plan <br>
-                <i class="fas fa-check-circle"></i> Double cuisine facilites <br>
+                <i class="fas fa-check-circle"></i> Local + foreign cuisine <br>
                 <i class="fas fa-check-circle"></i> 300+ guest zone <br>
-                <i class="fas fa-check-circle"></i> Free kids zone <br> 
-                <i class="fas fa-check-circle"></i> Dessert facilities <br> 
-              </p> 
+                <i class="fas fa-check-circle"></i> Free kids zone <br>
+                <i class="fas fa-check-circle"></i> Dessert facilities <br>
+              </p>
             </div>
-            <div class="d-grid" >
+            <div class="d-grid">
               <button class="btn custom-btn-color rounded-pill fw-bold fs-5">Choose plan</button>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 p-3 border-0">
-            <h2 class="fw-bold">&#2547; 25,000</h2>
+            <h2 class="fw-bold">&#2547; 50,000</h2>
             <div class="card-body">
               <h3 class="card-title fw-bold">Special Event</h3>
               <p class="card-text py-3 text-muted">
@@ -195,13 +210,109 @@
                 <i class="fas fa-check-circle"></i> Lunch facilites <br>
                 <i class="fas fa-check-circle"></i> Meeting arrangement<br>
                 <i class="fas fa-check-circle"></i> Projector using facilites <br>
-                <i class="fas fa-check-circle"></i> Air condition area 
-              </p>  
+                <i class="fas fa-check-circle"></i> Air condition area
+              </p>
             </div>
-            <div class="d-grid" >
+            <div class="d-grid">
               <button class="btn btn-outline-primary rounded-pill fw-bold fs-5">Choose plan</button>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section of why choosing Happy Forever  -->
+    <section class="container my-5">
+      <h1 class="text-center my-5" id="why we?">Why Choosing Happy Forever?</h1>
+      <div class="row d-flex align-items-center">
+        <div class="col-12 col-md-12 col-lg-6">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <h4>We provide the best service all over Dhaka</h5>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Out of The Blue - Design Studio, a concern of Asiatic 360, started it’s journey as a company giving
+                  both architectural & interior solutions, along with organizing and coordinating events. We have
+                  designed several themed events starting from big events (such as event for Organization of Islamic
+                  Cooperation) to themed parties (birthdays, weddings, etc). Our main focus is on the aesthetic elements
+                  along with keeping the functional purposes as priorities. We are well known for our skills of
+                  customizing and provide our clients with any design solution they require in order to achieve an
+                  extraordinary output. <br>
+                  <strong>Dhanmondi, Dhaka-1200</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h4>Best cuisine facilities</h4>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  A wedding anniversary is a perfect day for all your family, friends, and relatives to get together.
+                  Apart from decorations, music, dance, lightening, food is the most important aspect to look after a
+                  party. Everyone's taste has to be given preference, so you have to make sure that no one gets
+                  disappointed and everyone has a good evening. So,plan out the ideal menu, add up dishes from various
+                  cuisines, and get ready to plan a perfect wedding anniversary party. <br>
+                  Our Cuisine:
+                  <ul>
+                    <li>Local Food</li>
+                    <li>Indian Food</li>
+                    <li>Chinese Items</li>
+                    <li>Pakistani Items</li>
+                    <li>And so on...</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h4>We offer cheapest "Full Wedding" plan</h4>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Nowadays, that's hard to believe <strong>BDT &#2547; 29999 only</strong> can get all wedding plans
+                  including yellow touch and wedding ceremony. Yes, that's "Happy Forever" for you. We provide the best
+                  and the cheapest wedding plan including yellow touch here in Dhaka. Our main goal is the proper
+                  satisfaction of our clients. Because if clients are happy, we feel joyful.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <h4>Top class event hosting plan</h4>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Are you thinking of a plan or hosting a meeting? Welcome to "Happy Forever". You come to the right
+                  place. Besides wedding plans, we offer a full-day event arrange a package. That's <strong>only BDT
+                    &#2547; 50000.</strong> That's the best and cheapest package all over in the capital Dhaka. There
+                  have a projector system and air condition system as well. So, why worry? Hurry up and book your place
+                  first. Your success is our success.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6 p-4">
+          <img class="rounded" src="./img/img-5.jpg" width="100%" alt="why choosing happy forever picture">
         </div>
       </div>
     </section>
